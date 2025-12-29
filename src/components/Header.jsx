@@ -39,7 +39,7 @@ const Header = () => {
                     <span className="header__logo-bracket">/&gt;</span>
                 </a>
 
-                <div className={`header__pill ${isScrolled ? 'header__pill--visible' : ''}`}>
+                <div className="header__menu-wrapper">
                     <ul className="header__menu">
                         {navItems.map((item) => (
                             <li key={item.name} className="header__menu-item">
