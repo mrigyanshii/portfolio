@@ -1,0 +1,3 @@
+public key=29dBrNaHCDyxjoxTQ
+template_id=template_5azzakb
+service_id=service_isdyrjn

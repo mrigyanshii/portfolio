@@ -1,0 +1,46 @@
+ Mrigyanshi Digari
+  LinkedIn:   https://www.linkedin.com/in/mrigyanshi/  	  Email:  mriigyanshii@gmail.com
+  GitHub:    https://github.com/mrigyanshii                                                                                     Mobile:  +91-9058065944
+
+ SKILLS
+•	Languages:	C++, JavaScript, C, Java, Python
+•	Frameworks:	HTML and CSS, Bootstrap, NodeJS, ReactJS, Tailwind CSS
+•	Tools/Platforms:	MySQL, MongoDB, Git & GitHub, Jupyter Notebook, Figma, Docker
+•	Skills:                        Problem Solving, Team Player, Adaptability, Creative Thinking, Time Management
+
+ PROJECTS
+•	LexiLearn – AI Powered Vocabulary Assistant | GitHub | Live :                                                  Mar-Apr 2025				                     
+•	Built an intelligent vocabulary assistant that personalizes word learning for students.
+•	Engineered an NLP-based bot that produces definitions, synonyms, antonyms and example sentences with adaptive difficulty.
+•	Supported students and language learners as the core target audience.
+•	Tech Stack: Python, NLP, Scikit-Learn, Flask/Node backend, MongoDB
+•	PathMatch – ML – Based Career Guidance System | GitHub | Live :                                                 Feb-May 2025 						                   
+•	Created a machine learning system that suggests career paths based on skills, interests, and performance indicators.
+•	Developed a supervised learning pipeline that predicts suitable career paths from student skill and interest profiles.
+•	Designed for high-school and college students exploring career direction (target audience).
+•	Tech Stack: Python, Scikit-Learn, Pandas, NumPy, Jupyter Notebook
+
+ CERTIFICATIONS
+•	Mastering C++: From Object Oriented Programming to Dynamic Programming | LPU | Certificate            Jun-Jul 2025
+
+ CERTIFICATES
+•	Master Gen AI & Gen AI Tools | Udemy | Certificate                                                       		        Aug 2025
+•	Build Gen AI Apps & Solutions with No-Code Tools | Udemy | Certificate    				        Aug 2025
+•	Mastering Data Structures & Algorithms using C and C++ | Udemy | Certificate      			         Jan 2024 
+•	Deep Learning and Deployment on Web | GDSC | Certificate     					        Feb 2024
+•	Responsive Web Design | FCC | Certificate    							         Oct 2023 
+
+ EXTRA CURRICULARS
+Dance Competition – Spectra, Lovely Professional University	   Punjab, India
+Secured 2nd Rank among university participants in group performance.              		       Nov 2024
+Volunteer – Abhilasha Samiti (NGO)	 Pithoragarh, Uttarakhand
+Contributed to community-based environmental assessment, including identifying the primary causes of increased soil acidity in suburban regions.	    		Jun-July 2024
+
+ EDUCATION
+Lovely Professional University	   Punjab, India
+Bachelor of Technology - Computer Science and Engineering; CGPA: 5.59                        Aug 2023 - present
+New Beersheba Senior Secondary School	 Pithoragarh, Uttarakhand
+Intermediate; Percentage: 69	April 2020 - March 2022
+M Squire Public School                                                                                                           Pithoragarh, Uttarakhand
+Matriculation; Percentage: 94	April 2018 - March 2020
+
