@@ -1,7 +1,14 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css';
 
+// EmailJS Configuration
+const EMAILJS_SERVICE_ID = 'service_isdyrjn';
+const EMAILJS_TEMPLATE_ID = 'template_5azzakb';
+const EMAILJS_PUBLIC_KEY = '29dBrNaHCDyxjoxTQ';
+
 const Contact = () => {
+    const formRef = useRef();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -21,15 +28,25 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
+        setSubmitStatus(null);
 
-        // Simulate form submission
-        await new Promise((resolve) => setTimeout(resolve, 1500));
+        try {
+            await emailjs.sendForm(
+                EMAILJS_SERVICE_ID,
+                EMAILJS_TEMPLATE_ID,
+                formRef.current,
+                EMAILJS_PUBLIC_KEY
+            );
 
-        setSubmitStatus('success');
-        setIsSubmitting(false);
-        setFormData({ name: '', email: '', message: '' });
-
-        setTimeout(() => setSubmitStatus(null), 5000);
+            setSubmitStatus('success');
+            setFormData({ name: '', email: '', message: '' });
+        } catch (error) {
+            console.error('EmailJS Error:', error);
+            setSubmitStatus('error');
+        } finally {
+            setIsSubmitting(false);
+            setTimeout(() => setSubmitStatus(null), 5000);
+        }
     };
 
     const contactInfo = [
@@ -43,16 +60,6 @@ const Contact = () => {
             label: 'Email',
             value: 'mriigyanshii@gmail.com',
             href: 'mailto:mriigyanshii@gmail.com',
-        },
-        {
-            icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-            ),
-            label: 'Phone',
-            value: '+91-9058065944',
-            href: 'tel:+919058065944',
         },
         {
             icon: (
@@ -126,7 +133,7 @@ const Contact = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <form className="contact__form" onSubmit={handleSubmit}>
+                    <form ref={formRef} className="contact__form" onSubmit={handleSubmit}>
                         <h3 className="contact__form-title">Send a Message</h3>
 
                         <div className="contact__form-group">
@@ -201,6 +208,12 @@ const Contact = () => {
                         {submitStatus === 'success' && (
                             <div className="contact__success">
                                 <span>✓</span> Message sent successfully! I'll get back to you soon.
+                            </div>
+                        )}
+
+                        {submitStatus === 'error' && (
+                            <div className="contact__error">
+                                <span>✗</span> Failed to send message. Please try again or email me directly.
                             </div>
                         )}
                     </form>

@@ -1,5 +1,5 @@
 import './Hero.css';
-import profileImage from '../assets/profile.png';
+import profileImage from '/profile.png';
 
 const Hero = () => {
     const socialLinks = [

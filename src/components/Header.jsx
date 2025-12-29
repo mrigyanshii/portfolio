@@ -56,7 +56,7 @@ const Header = () => {
                 </div>
 
                 <a
-                    href="/resume.pdf"
+                    href="/general-cv.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="header__cta btn btn-primary"
