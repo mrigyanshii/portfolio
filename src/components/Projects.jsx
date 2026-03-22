@@ -134,14 +134,6 @@ const Projects = () => {
                                 >
                                     GitHub
                                 </a>
-                                <a
-                                    href={project.live}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="projects__link projects__link--primary"
-                                >
-                                    Live Demo
-                                </a>
                             </div>
                         </article>
                     ))}
