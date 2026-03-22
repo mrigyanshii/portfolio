@@ -1,5 +1,5 @@
 import './Hero.css';
-import profileImage from '/profile.png';
+
 
 const Hero = () => {
     const socialLinks = [
@@ -64,10 +64,16 @@ const Hero = () => {
                     </p>
 
                     <p className="hero__description">
-                        Passionate about building intelligent solutions with AI/ML and crafting
-                        beautiful web experiences. Currently pursuing B.Tech in CSE at
-                        Lovely Professional University.
+                        Computer Science student at Lovely Professional University specializing in AI/ML systems and NLP. Experienced in building unsupervised machine learning pipelines, multi-agent workflow automators, and multilingual intent discovery models. Passionate about designing scalable, data-driven solutions for real-world impact.
                     </p>
+
+                    <div className="hero__author" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', marginBottom: '2rem', opacity: 0.85 }}>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        <span className="font-mono" style={{ fontSize: '0.875rem' }}>Published Author – Autumn Diaries (Amazon anthology)</span>
+                    </div>
 
                     <div className="hero__cta">
                         <a href="#projects" className="btn btn-primary">
@@ -100,7 +106,7 @@ const Hero = () => {
                 <div className="hero__image-wrapper">
                     <div className="hero__image-container">
                         <img
-                            src={profileImage}
+                            src="/profile.png"
                             alt="Mrigyanshi Digari"
                             className="hero__image"
                         />

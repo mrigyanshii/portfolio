@@ -1,0 +1,59 @@
+ Mrigyanshi Digari  
+  LinkedIn:   linkedin.com/in/mrigyanshi/         Email:  mriigyanshii@gmail.com  
+  GitHub:    github. com/mrigyanshii                                                                                                   Mobile:  +91-9058065944  
+ 
+ SKILLS  
+Languages : C++,  JavaScript,  C, Java , Python  
+Frameworks : HTML  and CSS,  Bootstrap,  Tensorflow, Pytorch  
+Machine Learning & AI:  Scikit -learn, Pandas, NumPy, TensorFlow, Natural Language Processing  
+Tools/Platforms : Git & GitHub, Figma, Docker , Github actions , FastAPI  
+Skills : Problem Solving, Team Player, Adaptability, Creative Thinking, Time Management  
+ 
+ PROJECTS  
+Multilingual Intent Discovery using NLP | GitHub :                                                                                              Dec’ 25 
+ Engineered a multilingual NLP pipel ine to automatically discover user intents from large -scale natural language 
+queries without supervised labels.  
+ Processed ~842K queries from the MASSIVE dataset spanning 50+ languages, generating cross -lingual semantic 
+embeddings using paraphrase -multiling ual-MiniLM -L12-v2. 
+ Applied unsupervised clustering to uncover latent intent groups and enable semantic intent prediction for new 
+queries via similarity matching.  
+Tech Stack:  Python, Pandas, NumPy, Scikit -Learn, Sentence Transformers,  Jupyter Notebook  
+ 
+ 
+Multi-Agent Bug Workflow Automator | GitHub :                                                                                                   Oct’ 25 
+ Developed an unsupervised ML  system to analyze Jira bug reports and automatically group similar issues for     
+workflow automation and intelligent task routing.  
+ Built a hybrid feature pipeline combining structured signals (comments, changelog events, votes, issue links,     
+resolutio n time) with TF -IDF representations of bug descriptions.  
+ Implemented dimensionality reduction using TruncatedSVD and applied multiple clustering algorithms (K -Means,   
+DBSCAN, Hierarchical) to identify recurring bug patterns.  
+ Designed a scalable agent -base d workflow layer that maps discovered bug clusters to developer skill sets and   
+difficulty levels, enabling automated assignment and future expansion to full project workflow orchestration.  
+Tech Stack:  Python, Pandas, NumPy, Scikit -Learn, SciPy, Matplotli b, Joblib, Jupyter Notebook  
+ 
+     
+PathMatch – ML – Based Career Guidance System | GitHub :                                                                            May’ 25 
+ Created a machine lear ning system that suggests career paths based on skills, interests, and performance 
+indicators.  
+ Developed a supervised learning pipeline that predicts suitable career paths from student skill and interest profiles.  
+ Designed for high -school and college stude nts exploring career direction (target audience).  
+Tech Stack:  Python, Pandas, NumPy, Scikit -Learn, SciPy, Jupyter Noteboo k 
+ 
+  CERTIFICATES  
+• Mastering C++: From Object Oriented Programming to Dynamic Programming | LPU | Certificate                       Jul’ 25 
+• Mastering Data Structures and Algorithms using C and C++ | Udemy | Certifica te                                              Jan’ 24 
+ 
+ EXTRA CURRICULARS  
+Published Author – Autumn Diaries   
+Authored and published an original piece  on Ama zon, in a curated anthology, reflecting creative  depth,  thematic 
+coherence, and literary artic ulation.                   
+ 
+ EDUCATION   
+Lovely  Professional  University     Punjab,  India  
+Bachelor  of Technology  - Computer  Science  and Engineering;  CGPA:  6.00                           Aug’ 23 - Present  
+New Beersheba Senior Secondary School   Pithoragarh,  Uttarakhand  
+Intermediate ; Percentage:  69             Apr’ 21 – May 22 
+M Squire Public School                                                                                                            Pithoragarh, Uttarakhand  
+Matriculation ; Percentage:  94             Apr’ 19 – May 20 • 
+• 
+• • 
