@@ -15,8 +15,7 @@ const Projects = () => {
                 'Unsupervised clustering',
             ],
             techStack: ['Python', 'Pandas', 'NumPy', 'Scikit-Learn', 'Sentence Transformers'],
-            github: 'https://github.com/mrigyanshii',
-            live: '#',
+            github: 'https://github.com/mrigyanshii/multilingual-tourist-query',
             color: 'blue',
         },
         {
@@ -32,8 +31,7 @@ const Projects = () => {
                 'Agent-based workflow orchestration',
             ],
             techStack: ['Python', 'Scikit-Learn', 'SciPy', 'Matplotlib', 'Joblib'],
-            github: 'https://github.com/mrigyanshii',
-            live: '#',
+            github: 'https://github.com/mrigyanshii/multi-agent-bug-workflow-automator',
             color: 'black',
         },
         {
@@ -50,8 +48,7 @@ const Projects = () => {
                 'Example sentence generation',
             ],
             techStack: ['Python', 'NLP', 'Scikit-Learn', 'Flask/Node', 'MongoDB'],
-            github: 'https://github.com/mrigyanshii',
-            live: '#',
+            github: 'https://github.com/mrigyanshii/ai-vocalulary-bot',
             color: 'blue',
         },
         {
@@ -68,7 +65,7 @@ const Projects = () => {
                 'Personalized recommendations',
             ],
             techStack: ['Python', 'Scikit-Learn', 'Pandas', 'NumPy', 'Jupyter'],
-            github: 'https://github.com/mrigyanshii',
+            github: 'https://github.com/mrigyanshii/career_guidance',
             live: '#',
             color: 'black',
         }
