@@ -202,14 +202,6 @@
     color: var(--color-white);
 }
 
-.projects__link--primary {
-    background-color: var(--color-blue);
-    color: var(--color-white);
-}
-
-.projects__link--primary:hover {
-    background-color: var(--color-blue-dark);
-}
 
 /* More Projects */
 .projects__more {
